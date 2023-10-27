@@ -1,0 +1,23 @@
+button {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  transition: all 0.4s linear;
+}
+
+button.form-to-short {
+  background-color: var(--primary-color);
+  color: var(--fifth-color);
+}
+
+button.shorted-link {
+  background-color: var(--fourth-color);
+  color: var(--secondary-color);
+}
+
+button:disabled {
+  background-color: var(--fifth-color);
+  color: gray;
+  cursor: not-allowed;
+}

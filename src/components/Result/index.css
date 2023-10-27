@@ -1,0 +1,13 @@
+.result {
+  width: 100%;
+  max-width: 45rem;
+  padding: 1rem;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.copied {
+  transition: all 0.5s linear;
+  margin-top: 1rem;
+}
